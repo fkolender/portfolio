@@ -1,7 +1,7 @@
 import styles from '@/styles/Home.module.css'
 
 
-const about = () => {
+const About = () => {
   return (
     <div className='container'>
     <h1 className={styles.title}>About Me</h1>
@@ -10,4 +10,4 @@ const about = () => {
   )
 }
 
-export default about
+export default About
