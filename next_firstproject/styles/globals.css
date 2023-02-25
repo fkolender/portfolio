@@ -36,6 +36,7 @@ nav a {
 }
 nav .logo {
   margin-right: auto;
+  margin-top: auto;
 }
 footer {
   display: block;
