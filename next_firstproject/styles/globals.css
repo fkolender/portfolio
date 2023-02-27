@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 body {
   background: #f2f2f2;
@@ -45,4 +47,43 @@ footer {
   margin-top: 60px;
   color: #777;
   border-top: 1px solid #eaeaea;
+}
+
+.single {
+  padding: 2px 16px;
+  background: #fff;
+  display: block;
+  margin: 20px 10px;
+  border-left: 8px solid #fff;
+}
+.single:hover {
+  border-left: 8px solid #4979ff;
+}
+
+.title {
+  color: #333;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.text {
+  color: #777;
+}
+
+.btn {
+  display: block;
+  width: 150px;
+  padding: 8px 0;
+  margin: 20px auto;
+  background: #4979ff;
+  border-radius: 4px;
+  color: white;
+  text-align: center;
+}
+.bold {
+  color: black;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.not-found{
+  text-align: center;
 }
