@@ -15,7 +15,8 @@ export const getStaticProps = async () => {
 const Projects = ({posts}) => {
   return (
     <div>
-    <h1>All the (placeholder) projects</h1>
+    <h1 className='title'>Projects — WIP👷</h1>
+    <h1 className='title'>In the meantime, display is kept fed from a placeholder API.</h1>
     {posts.map(post =>(
       <Link href={'/projects/'+post.id} key={post.id}>
           <div className="single">
