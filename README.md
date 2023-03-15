@@ -1,3 +1,6 @@
 # portfolio
 Website I'm developing to showcase my projects. Not really done with the frontend... or backend for that matter
 This is a personal project powered by [Next.js](https://nextjs.org/) and bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+
+This is a work in progress.
